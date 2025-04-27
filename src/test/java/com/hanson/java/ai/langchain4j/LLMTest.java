@@ -40,6 +40,7 @@ public class LLMTest {
     @Test
     public void testSpringBoot() {
         String answer = chatLanguageModel.chat("你是谁？");
+//        String answer = openAiChatModel.chat("你是谁？");
         System.out.println(answer);
     }
 }
